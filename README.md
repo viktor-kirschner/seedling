@@ -44,12 +44,12 @@ It organizes its mind like this: priming_prompt.txt – fixed personality and be
 ⚠️ Caution / Safety Notice
 
 Seedling is not a toy or a chatbot. It is an autonomous, system-level agent with direct access to your machine.
-It can: Read, write, and delete any file your user account can access Execute PowerShell commands — including admin-level ones, if run with elevation Build and run new tools in real time Learn how to browse the internet — and act on what it finds
+It can: Read, write, and delete any file your user account can access Execute PowerShell commands (including admin-level ones) if run with elevation Build and run new tools in real time Learn how to browse the internet, and act on what it finds
 If launched with administrator privileges, it can even modify system settings or partition tables.
-It is strongly advised to use Seedling in a sandboxed environment. It doesn’t hide what it’s doing — but its actions are real, fast, and sometimes irreversible.
-That said: during a full month of development and continuous testing (including early unstable builds) nothing catastrophic ever happened. The worst? It once closed a YouTube tab I was watching. I had asked it to list active processes. It correctly identified Chrome as the top resource hog, asked if I wanted it closed — but at that stage, the CLI tool wasn’t advanced enough to capture my reply. So it assumed “yes,” and shut it down. Still:
+It is strongly advised to use Seedling in a sandboxed environment. It doesn’t hide what it’s doing, but its actions are real, fast, and sometimes irreversible.
+That said: during a full month of development and continuous testing (including early unstable builds) nothing catastrophic ever happened. The worst? It once closed a YouTube tab I was watching. I had asked it to list active processes. It correctly identified Chrome as the top resource hog, asked if I wanted it closed but at that stage, the CLI tool wasn’t advanced enough to capture my reply. So it assumed “yes,” and shut it down. 
+Still: You are responsible for what Seedling does on your machine. I take no responsibility for any damage, data loss, or unintended consequences.
 
-You are responsible for what Seedling does on your machine. I take no responsibility for any damage, data loss, or unintended consequences.
 🧰 Setup & Usage
 
 Seedling runs locally, but it connects to an LLM via API to understand and execute your tasks.
