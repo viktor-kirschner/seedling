@@ -97,8 +97,8 @@ If you’re using the installer version, the codebase is placed in:
 Inside that folder, open seedling.bat and set your key:
 
 set MOONSHOT_API_KEY=your_key_here
-cls
 python cli_tool.py
+cls
 
 This way you won’t have to enter it manually each time you launch.
 
