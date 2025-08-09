@@ -12,7 +12,7 @@ Seedling doesn’t just run commands. It observes results, adapts, and continues
 
 Seedling doesn’t come preloaded with “features.” It grows them.
 
-It starts as a 50KB seed — a local CLI agent with just the basics: talk, see files, create files. But give it a task, and it will grow the tools it needs.
+It starts as a 58KB seed — a local CLI agent with just the basics: talk, see files, create files. But give it a task, and it will grow the tools it needs.
 
     Want a little image assistant? It’ll build image resizing, grayscale converters, ASCII renderers, even free text-to-image toolchains.
     Want it to learn how to browse the web? It’ll try.
