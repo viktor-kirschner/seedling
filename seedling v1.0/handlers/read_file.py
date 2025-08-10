@@ -1,5 +1,5 @@
 # MIT License - Copyright (c) 2025 Viktor Kirschner
-# AgentK has improved this tool for itself
+# Seedling has improved this tool for itself
 import os
 import sys
 import mimetypes
