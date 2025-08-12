@@ -62,13 +62,9 @@ It is an autonomous, system-level agent with direct access to your machine.
 It can:
 
     Read, write, and delete any file your user account can access
-
     Execute PowerShell commands (including admin-level ones) if run with elevation
-
     Build and run new tools in real time
-
     Learn how to browse the internet and act on what it finds
-
     If launched with administrator privileges, modify system settings or partition tables
 
 It is strongly advised to use Seedling in a sandboxed environment.
@@ -121,7 +117,8 @@ It doesn’t auto-start — it just quietly moves in.
     OpenAI 4o can use this tool, but it’s clumsy with it, leading to many corrections and higher costs.
 
     I created an AI connector for GPT-5, but so far it’s not a big fan of Seedling. I’ll be improving this in the next few days.
-
+- Update : The GPT-5 API connector has been made, it seems to be working perfectly. See **/seedling v1.0/GPT-5_connector/** for details.
+ 
 Linux support is in progress — testing should be complete soon. More API backends will be added later, but only if they prove stable inside Seedling’s autonomous tool-building cycles.
 
 **🛣️ Roadmap & Vision**
