@@ -148,6 +148,8 @@ Sometimes Seedling appears idle, but log.txt shows it’s still working. In this
 3. Output/reaction misalignment
 At times, CLI output appears out of order — command → reaction → result. This is purely a display issue; execution is correct.
 
+4. Noticed on 12/08/25: The memory.txt doesn't get loaded after a task has been finished. This is a serious issue, as the model has no clue what it was doing before the next user prompt except if the window was closed and re-opened. This will be fixed in the next few days. 
+
 **📄 License**
 
 MIT License
